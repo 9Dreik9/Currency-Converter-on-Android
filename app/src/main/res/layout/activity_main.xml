@@ -21,6 +21,17 @@
         android:focusable="true"
         app:cardCornerRadius="25dp">
 
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="Currency Converter"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="25sp"/>
+
         <LinearLayout
             android:id="@+id/master_linear_layout"
             android:layout_width="match_parent"
